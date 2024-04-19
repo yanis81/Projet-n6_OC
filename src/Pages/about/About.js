@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Banner from "../../components/Banner/Banner";
 import ImageaboutBanner from "../../assets/banner/aboutBanner.png";
+import Footer from "../../components/footer/Footer";
 
 export default function About() {
   return (
@@ -9,9 +10,10 @@ export default function About() {
       <Header />
       <main>
         <Banner image={ImageaboutBanner} />
-
-        <h1>bienvenue sur about</h1>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
