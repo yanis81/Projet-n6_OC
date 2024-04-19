@@ -1,6 +1,6 @@
 import "./Style/App.scss";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/accueil/Home";
+import Home from "./Pages/accueil/home";
 import About from "./Pages/about/About";
 import Error from "./Pages/error/Error";
 import FichLogement from "./Pages/logements/FichLogement";
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/*" element={<Error />} />
-        <Route path="/logements" element={<FichLogement />} />
+        <Route path="/logements/:id" element={<FichLogement />} />
       </Routes>
     </div>
   );
