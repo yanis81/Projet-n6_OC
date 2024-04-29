@@ -1,6 +1,6 @@
 import "./Style/App.scss";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/accueil/accueil";
+import Home from "./Pages/accueil/Home";
 import About from "./Pages/about/About";
 import Error from "./Pages/error/Error";
 import FichLogement from "./Pages/logements/FichLogement";
