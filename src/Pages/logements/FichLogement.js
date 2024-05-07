@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import FicheLogementDisplay from "../../components/fichelogement/FicheLogementDisplay";
 
 export default function FichLogement() {
   return (
@@ -9,7 +10,7 @@ export default function FichLogement() {
         <Header /> 
       </header>
       <main>
-        <h1>bienvenue dans les logements</h1>
+        <FicheLogementDisplay/>
       </main>
       <footer>
         <Footer/>
