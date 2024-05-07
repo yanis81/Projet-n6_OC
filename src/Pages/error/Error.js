@@ -6,9 +6,13 @@ import Error404 from "../../components/error/Error404";
 export default function Error() {
   return (
     <div>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <main>
-        <Error404 />
+        <article>
+          <Error404 />
+        </article>
       </main>
       <footer>
         <Footer />

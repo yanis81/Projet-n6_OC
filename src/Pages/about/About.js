@@ -9,7 +9,9 @@ import Footer from "../../components/footer/Footer";
 export default function About() {
   return (
     <div>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <main>
         <Banner image={ImageaboutBanner} />
         <div className="collapse">

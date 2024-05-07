@@ -8,7 +8,9 @@ import Footer from "../../components/footer/Footer";
 export default function Home() {
   return (
     <div className="home">
-      <Header />
+      <header>
+         <Header />
+      </header>
       <main>
         <Banner
           texte="Chez vous, partout et ailleurs"
